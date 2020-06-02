@@ -437,58 +437,7 @@ if ($_POST){
                                                    
                                                       <br />
                                                       <br />
-                                                      <h4>Historial de Evaluaciones Planificadas</h4>
-                                                      <div class="table-responsive">
-                                                          <table class="table">
-                                                              <thead>
-                                                                  <tr>
-                                                                      <th> Titulo de la Ev </th>
-                                                                      <th> Fecha de la Ev </th>
-                                                                      <th> Tipo de la Ev </th>
-                                                                      <th> Contenido </th>
-                                                                  </tr>
-                                                              </thead>
-                                                              <tbody>
-                                                                  <tr>
-                                                                      <td>  </td>
-                                                                      <td>  </td>
-                                                                      <td>  </td>
-                                                                      <td>  </td>
-                                                                  </tr>
-                                                                  <tr>
-                                                                      <td>   </td>
-                                                                      <td>   </td>
-                                                                      <td>   </td>
-                                                                      <td>   </td>
-                                                                  </tr>
-                                                                  <tr>
-                                                                      <td>   </td>
-                                                                      <td>   </td>
-                                                                      <td>   </td>
-                                                                      <td>   </td>
-                                                                  </tr>
-                                                                  <tr>
-                                                                      <td>   </td>
-                                                                      <td>   </td>
-                                                                      <td>   </td>
-                                                                      <td>   </td>
-                                                                  </tr>
-                                                                  <tr>
-                                                                      <td>   </td>
-                                                                      <td>   </td>
-                                                                      <td>   </td>
-                                                                      <td>   </td>
-                                                                  </tr>
-                                                                  <tr>
-                                                                      <td>   </td>
-                                                                      <td>   </td>
-                                                                      <td>   </td>
-                                                                      <td>   </td>
-                                                                  </tr>
-                                                                 
-                                                              </tbody>
-                                                          </table>
-                                                      </div>
+                                                      
                                                       </div>
                                                   </div>
                                           </div>

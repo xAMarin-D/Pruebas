@@ -414,50 +414,7 @@ if ($_POST){
                                                    
                                                       <br />
                                                       <br />
-                                                      <h4>Historial de Minutas Enviadas</h4>
-                                                      <div class="table-responsive">
-                                                          <table class="table">
-                                                              <thead>
-                                                                  <tr>
-                                                                      <th> Titulo </th>
-                                                                      <th> Tipo de Reunión </th>
-                                                                      <th> Contenido </th>
-                                                                  </tr>
-                                                              </thead>
-                                                              <tbody>
-                                                                  <tr>
-                                                                      <td>  </td>
-                                                                      <td>  </td>
-                                                                      <td>  </td>
-                                                                  </tr>
-                                                                  <tr>
-                                                                      <td>   </td>
-                                                                      <td>   </td>
-                                                                      <td>   </td>
-                                                                  </tr>
-                                                                  <tr>
-                                                                      <td>   </td>
-                                                                      <td>   </td>
-                                                                      <td>   </td>
-                                                                  </tr>
-                                                                  <tr>
-                                                                      <td>   </td>
-                                                                      <td>   </td>
-                                                                      <td>   </td>
-                                                                  </tr>
-                                                                  <tr>
-                                                                      <td>   </td>
-                                                                      <td>   </td>
-                                                                      <td>   </td>
-                                                                  </tr>
-                                                                  <tr>
-                                                                      <td>   </td>
-                                                                      <td>   </td>
-                                                                      <td>   </td>
-                                                                  </tr>
-                                                              </tbody>
-                                                          </table>
-                                                      </div>
+                                                      
                                                       </iv>
                                                   </div>
                                           </div>
