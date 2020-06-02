@@ -308,23 +308,23 @@ $resul = mysqli_query($conexion, $dropwdown) or die ("<strong>Algo Salio mal con
                       
                     </tr>
                   </tfoot>
-                  <tbody>
+                  <tbody> 
 
                                 <!-- Metodo While que rellena la tabla con los datos pedidos en la query cada vez que se agrega un dato, esto lo hace solamente con el profesor de la sesion actual -->
 
                                 <?php  
-                                $sql="SELECT tituloMensaje, descripcionMensaje, fechaMensaje from mensaje  WHERE Profesor_rutProfesor = ". $_SESSION ['rutProfesor'];
+                                $sql="SELECT idMensaje, tituloMensaje, descripcionMensaje, fechaMensaje from mensaje  WHERE Profesor_rutProfesor = ". $_SESSION ['rutProfesor'];
                                 $result=mysqli_query($conexion,$sql);
                                 while($ver=mysqli_fetch_row($result)){
                                 ?>
 
                                                 <tr>
-                                                <td>  <?php echo $ver[0] ?>  </td>
-                                                <td>  <?php echo $ver[1] ?> </td>
-                                                <td>  <?php echo $ver[2]?> </td>
+                                                <td>  <?php echo $ver[1] ?>  </td>
+                                                <td>  <?php echo $ver[2] ?> </td>
+                                                <td>  <?php echo $ver[3] ?> </td>
 
                                                 
-                                                <td> <button  type="submit"  name="Eliminar"  class= "btn btn-danger glyphicon glyphicon-remove" style="margin-left:20%"> </button> </td>
+                                                <td> <a href="  <?php echo "Metodo.php?id='".$ver[0]."'"  ?> "> <button  type="submit"  name="Eliminar"  class= "btn btn-danger glyphicon glyphicon-remove" style="margin-left:20%"> </button> </a> </td>
                                                 
 
                                                 </tr>

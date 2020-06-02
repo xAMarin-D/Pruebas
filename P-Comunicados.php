@@ -296,7 +296,7 @@ if ($_POST){
                                                               
 
 
-                                                              
+
                                                       
                                                         <?php
 
@@ -402,6 +402,9 @@ if ($_POST){
                                                       <br />
                                                       <br />
                                                       <h4>Historial de Comunicados Enviados</h4>
+
+
+                                                      
                                                       <div class="table-responsive">
                                                           <table class="table">
                                                               <thead>
